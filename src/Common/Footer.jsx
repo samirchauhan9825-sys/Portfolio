@@ -27,9 +27,8 @@ function Footer() {
         <div className="last d-flex max-width justify-content-between my-4">
           <div className="icon d-flex gap-4">
             <span className="fa fa-linkedin fs-5" style={{ color: "#fd6e0a" }} />
-             <span className="fa fa-github fs-5" style={{ color: "#fd6e0a" }}></span>
-            <span className="fa fa-facebook fs-5" style={{ color: "#fd6e0a" }} />
-            <span className="fa fa-instagram fs-5" style={{ color: "#fd6e0a" }} />
+            <a href="https://github.com/"><span className="fa fa-github fs-5" style={{ color: "#fd6e0a" }}></span></a>
+            <a href="https://www.instagram.com/jigar_chauhan___/"><span className="fa fa-instagram fs-5" style={{ color: "#fd6e0a" }} /></a>
           </div>
 
           <div className="content">
