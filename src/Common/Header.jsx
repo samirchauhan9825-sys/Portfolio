@@ -39,7 +39,7 @@ function Header() {
                 I'am a full stack devloper with a focus on creating exceptional
                 digital experiences that are fast, accessible, visualy
                 appealing, and responsive. Even though i have been creating
-                webapplications for over 5 Monts, i still love it as if it was
+                webapplications for over 6 Monts, i still love it as if it was
                 something new.
               </p>
 

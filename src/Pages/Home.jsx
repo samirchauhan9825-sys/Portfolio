@@ -30,7 +30,10 @@ function Home() {
                 </p>{" "}
                 <p className="text-dark fs-4">
                   &nbsp;{" "}
-                  <a href="#" className="text-decoration-none text-dark">
+                  <a
+                    href="mailto:jigarchauhan9958@gmail.com"
+                    className="text-decoration-none text-dark"
+                  >
                     jigarchauhan9958@gmail.com
                   </a>
                 </p>
@@ -40,7 +43,16 @@ function Home() {
                 <p className="fs-4" style={{ color: "gray" }}>
                   Phone:{" "}
                 </p>{" "}
-                <p className="text-dark fs-4">&nbsp; 9825735293</p>
+                <p className="text-dark fs-4">
+                  &nbsp;{" "}
+                  <a
+                    href="tel:+919825735293"
+                    className="text-decoration-none text-dark"
+                  >
+                    {" "}
+                    9825735293
+                  </a>
+                </p>
               </div>
 
               <div className="info-content d-flex">
@@ -64,32 +76,17 @@ function Home() {
           <div className="p-5">
             <h1 className="text-center">Featured Projects</h1>
           </div>
-
           {/* Project 1 */}
-          <div className="project-content max-width">
-            <div className="row d-flex justify-content-evenly">
-              <div className="col-lg-6 col-md-12 mt-5">
-                <div className="project ">
-                  <a
-                    href="https://todayprimenews.onrender.com/"
-                    target="_blank"
-                  >
-                    <img
-                      src="./images/Project1.png"
-                      className="w-100 shadow-lg"
-                      alt="Project"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-12 my-3">
+          <div className="project-content max-width ">
+            <div className="row">
+              <div className="order-2 order-lg-2 col-lg-6 col-md-12 my-3">
                 <div className="project">
                   <div className="project-detail mt-4">
-                    <h3>Today Prime News</h3>
+                    <h3>The Daily Dish</h3>
                     <p style={{ color: "gray" }}>
-                      Stay informed with real-time breaking news updates powered
-                      by fast APIs and a smooth React interface designed for
-                      seamless, reliable user experiences.
+                      Discover delicious recipes instantly with real-time API
+                      updates displayed through a smooth React interface
+                      designed to deliver fresh cooking ideas every single day.
                     </p>
                     <hr />
                     <div className="d-flex justify-content-between">
@@ -101,11 +98,11 @@ function Home() {
                       <p>Role </p>
                       <p>React-Project</p>
                     </div>
-                    <div className="d-flex justify-content-end gap-5">
+                    <div className="d-flex justify-content-end gap-4">
                       {/* <h6>Year</h6>
                       <h6>2025</h6> */}
                       <a
-                        href="https://todayprimenews.onrender.com/"
+                        href="https://recipe-hdjn.onrender.com"
                         target="_blank"
                         className="text-decoration-none"
                         style={{ color: "#fd6e0a" }}
@@ -114,9 +111,9 @@ function Home() {
                         <span className="fa fa-location-arrow fs-5"></span>
                       </a>
                       <a
-                        href="https://github.com/samirchauhan9825-sys/NewsToday"
+                        href="https://github.com/samirchauhan9825-sys/Recipe"
                         target="_blank"
-                        className="text-decoration-none"
+                        className="text-decoration-none "
                         style={{ color: "#fd6e0a" }}
                       >
                         SEE ON GITHUB{" "}
@@ -124,6 +121,18 @@ function Home() {
                       </a>
                     </div>
                   </div>
+                </div>
+              </div>
+
+              <div className="order-1 order-lg-1 col-lg-6 col-md-12 mt-5">
+                <div className="project shadow-lg">
+                  <a href="https://recipe-hdjn.onrender.com" target="_blank">
+                    <img
+                      src="./images/Project1.png"
+                      className="w-100"
+                      alt="Project"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
@@ -154,7 +163,7 @@ function Home() {
                     </div>
                     <div className="d-flex justify-content-end gap-4">
                       <a
-                        href="https://stayfitdaily.onrender.com/"
+                        href="https://stayfitdaily.onrender.com"
                         target="_blank"
                         className="text-decoration-none"
                         style={{ color: "#fd6e0a" }}
@@ -178,7 +187,7 @@ function Home() {
 
               <div className="p2-img order-1 order-lg-2 col-lg-6 col-md-12 mt-5 ">
                 <div className="project shadow-lg">
-                  <a href="https://stayfitdaily.onrender.com/" target="_blank">
+                  <a href="https://stayfitdaily.onrender.com" target="_blank">
                     <img
                       src="./images/Project2.png"
                       className="w-100"
@@ -252,16 +261,30 @@ function Home() {
           </div>
 
           {/* Project 4 */}
-          <div className="project-content max-width ">
-            <div className="row">
+          <div className="project-content max-width">
+            <div className="row d-flex justify-content-evenly">
+              <div className="order-2 order-lg-2 col-lg-6 col-md-12 mt-5">
+                <div className="project ">
+                  <a
+                    href="https://todayprimenews.onrender.com/"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/Project4.png"
+                      className="w-100 shadow-lg"
+                      alt="Project"
+                    />
+                  </a>
+                </div>
+              </div>
               <div className="order-2 order-lg-1 col-lg-6 col-md-12 my-3">
                 <div className="project">
                   <div className="project-detail mt-4">
-                    <h3>The Daily Dish</h3>
+                    <h3>Today Prime News</h3>
                     <p style={{ color: "gray" }}>
-                      Discover delicious recipes instantly with real-time API
-                      updates displayed through a smooth React interface
-                      designed to deliver fresh cooking ideas every single day.
+                      Stay informed with real-time breaking news updates powered
+                      by fast APIs and a smooth React interface designed for
+                      seamless, reliable user experiences.
                     </p>
                     <hr />
                     <div className="d-flex justify-content-between">
@@ -273,11 +296,11 @@ function Home() {
                       <p>Role </p>
                       <p>React-Project</p>
                     </div>
-                    <div className="d-flex justify-content-end gap-4">
+                    <div className="d-flex justify-content-end gap-5">
                       {/* <h6>Year</h6>
                       <h6>2025</h6> */}
                       <a
-                        href="https://recipe-hdjn.onrender.com/"
+                        href="https://todayprimenews.onrender.com/"
                         target="_blank"
                         className="text-decoration-none"
                         style={{ color: "#fd6e0a" }}
@@ -286,9 +309,9 @@ function Home() {
                         <span className="fa fa-location-arrow fs-5"></span>
                       </a>
                       <a
-                        href="https://github.com/samirchauhan9825-sys/Recipe"
+                        href="https://github.com/samirchauhan9825-sys/NewsToday"
                         target="_blank"
-                        className="text-decoration-none "
+                        className="text-decoration-none"
                         style={{ color: "#fd6e0a" }}
                       >
                         SEE ON GITHUB{" "}
@@ -296,18 +319,6 @@ function Home() {
                       </a>
                     </div>
                   </div>
-                </div>
-              </div>
-
-              <div className="order-1 order-lg-2 col-lg-6 col-md-12 mt-5">
-                <div className="project shadow-lg">
-                  <a href="https://recipe-hdjn.onrender.com/" target="_blank">
-                    <img
-                      src="./images/Project4.png"
-                      className="w-100"
-                      alt="Project"
-                    />
-                  </a>
                 </div>
               </div>
             </div>

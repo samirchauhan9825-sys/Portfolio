@@ -26,13 +26,13 @@ function Footer() {
         </div>
         <div className="last d-flex max-width justify-content-between my-4">
           <div className="icon d-flex gap-4">
-            <span className="fa fa-linkedin fs-5" style={{ color: "#fd6e0a" }} />
-            <a href="https://github.com/"><span className="fa fa-github fs-5" style={{ color: "#fd6e0a" }}></span></a>
-            <a href="https://www.instagram.com/jigar_chauhan___/"><span className="fa fa-instagram fs-5" style={{ color: "#fd6e0a" }} /></a>
+            <a href="https://www.linkedin.com/in/jigar-chauhan-742917361/" target="_blank" ><span className="fa fa-linkedin fs-5" style={{ color: "#fd6e0a" }} /></a>
+            <a href="https://github.com/samirchauhan9825-sys" target="_blank"><span className="fa fa-github fs-5" style={{ color: "#fd6e0a" }}></span></a>
+            <a href="https://www.instagram.com/jigar_chauhan___/" target="_blank" ><span className="fa fa-instagram fs-5" style={{ color: "#fd6e0a" }} /></a>
           </div>
 
           <div className="content">
-            © 2025 Copyright Design By <a href="#" className="text-decoration-none"  style={{ color: "#dc6008" }}> Jigar Chauhan</a>
+            © 2026 Copyright Design By <a href="#" className="text-decoration-none"  style={{ color: "#dc6008" }}> Jigar Chauhan</a>
           </div>
         </div>
       </div>
